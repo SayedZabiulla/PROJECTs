@@ -1,1 +1,0 @@
-This is gen ai project
