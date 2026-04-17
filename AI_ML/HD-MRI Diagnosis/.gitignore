@@ -1,0 +1,76 @@
+cat > ~/HD_Diagnosis_Project/.gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+hd_env/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+
+# Data (DO NOT UPLOAD DATASET)
+data/raw/
+data/processed/slices/
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.img
+*.hdr
+
+# Large files
+models/*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Specific to this project
+github_upload/
+EOF
+
+echo "✓ .gitignore created"

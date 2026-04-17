@@ -1,0 +1,32 @@
+cat > ~/HD_Diagnosis_Project/requirements.txt << 'EOF'
+# Core Deep Learning
+torch==2.2.2
+torchvision==0.17.2
+monai==1.3.1
+
+# Medical Imaging
+nibabel==5.2.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+opencv-python==4.8.0.76
+pillow==10.0.0
+
+# Grad-CAM
+grad-cam==1.4.8
+
+# Utilities
+tqdm==4.66.1
+jupyterlab==4.0.5
+
+# Optional but recommended
+scipy==1.11.2
+EOF
+
+echo "✓ requirements.txt created"
