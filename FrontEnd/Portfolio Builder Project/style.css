@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    overflow-x: hidden;
+}
+
+.builder-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 320px;
+    background: #2c3e50;
+    color: white;
+    padding: 25px;
+    overflow-y: auto;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.control-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #34495e;
+    border-radius: 8px;
+}
+
+.control-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.control-section label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+
+.control-section input[type="color"],
+.control-section input[type="range"],
+.control-section select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+#fontSizeValue {
+    display: inline-block;
+    margin-left: 10px;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.add-btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.export-btn {
+    width: 100%;
+    padding: 15px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.export-btn:hover {
+    background: #229954;
+}
+
+/* Preview Area */
+.preview-area {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+    background: #ecf0f1;
+}
+
+.portfolio-preview {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    min-height: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.placeholder {
+    text-align: center;
+    color: #95a5a6;
+    font-size: 18px;
+    padding: 100px 20px;
+}
+
+/* Portfolio Components */
+.portfolio-header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, var(--primary-color, #3498db), var(--secondary-color, #2c3e50));
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.about-section {
+    padding: 40px;
+    margin: 30px 0;
+    background: #f8f9fa;
+    border-left: 5px solid var(--primary-color, #3498db);
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-card {
+    padding: 30px;
+    margin: 20px 0;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    position: relative;
+}
+
+.contact-section {
+    padding: 40px;
+    background: var(--secondary-color, #2c3e50);
+    color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+/* Component Controls */
+.component-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.portfolio-header:hover .component-controls,
+.about-section:hover .component-controls,
+.project-card:hover .component-controls,
+.contact-section:hover .component-controls {
+    opacity: 1;
+}
+
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit-btn { background: #3498db; color: white; }
+.delete-btn { background: #e74c3c; color: white; }
+
+/* Focus styles */
+.focus-mode *:focus {
+    outline: 3px solid #ff6b6b !important;
+    outline-offset: 3px;
+}
+
+/* High Contrast */
+.high-contrast .portfolio-preview {
+    background: #000;
+    color: #fff;
+}
+
+.high-contrast .project-card,
+.high-contrast .about-section {
+    background: #1a1a1a;
+    color: #fff;
+    border-color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .builder-container { flex-direction: column; }
+    .sidebar { width: 100%; max-height: 400px; }
+}

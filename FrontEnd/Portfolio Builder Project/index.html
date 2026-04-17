@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="builder-container">
+        <!-- Sidebar Controls -->
+        <aside class="sidebar" role="complementary" aria-label="Portfolio builder controls">
+            <h1>Portfolio Builder</h1>
+            
+            <section class="control-section">
+                <h2>Theme Settings</h2>
+                <label for="primaryColor">Primary Color:</label>
+                <input type="color" id="primaryColor" value="#3498db" aria-label="Choose primary color">
+                
+                <label for="secondaryColor">Secondary Color:</label>
+                <input type="color" id="secondaryColor" value="#2c3e50" aria-label="Choose secondary color">
+                
+                <label for="fontSize">Font Size:</label>
+                <input type="range" id="fontSize" min="14" max="24" value="16" aria-label="Adjust font size">
+                <span id="fontSizeValue">16px</span>
+                
+                <label for="fontFamily">Font Family:</label>
+                <select id="fontFamily" aria-label="Choose font family">
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="'Georgia', serif">Georgia</option>
+                    <option value="'Courier New', monospace">Courier New</option>
+                    <option value="'Verdana', sans-serif">Verdana</option>
+                </select>
+            </section>
+            
+            <section class="control-section">
+                <h2>Add Components</h2>
+                <button class="add-btn" data-component="header">➕ Add Header</button>
+                <button class="add-btn" data-component="about">➕ Add About</button>
+                <button class="add-btn" data-component="project">➕ Add Project</button>
+                <button class="add-btn" data-component="contact">➕ Add Contact</button>
+            </section>
+            
+            <section class="control-section">
+                <h2>Accessibility</h2>
+                <label>
+                    <input type="checkbox" id="highContrast"> High Contrast Mode
+                </label>
+                <label>
+                    <input type="checkbox" id="focusIndicator" checked> Focus Indicators
+                </label>
+            </section>
+            
+            <button id="exportBtn" class="export-btn">💾 Export HTML</button>
+        </aside>
+        
+        <!-- Preview Area -->
+        <main class="preview-area" role="main" aria-label="Portfolio preview">
+            <div id="portfolio" class="portfolio-preview" tabindex="0">
+                <p class="placeholder">Add components to build your portfolio</p>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
