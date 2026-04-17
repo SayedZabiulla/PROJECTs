@@ -1,0 +1,53 @@
+{
+  "ResNet50": {
+    "Architecture Year": "2015",
+    "Parameters": "24.5M",
+    "Test Accuracy": "0.9495",
+    "Test Precision": "0.8885",
+    "Test Recall": "0.8893",
+    "Test Specificity": "0.9672",
+    "Test F1 Score": "0.8889",
+    "Test ROC AUC": "0.9776",
+    "True Positives": 916,
+    "True Negatives": 3387,
+    "False Positives": 115,
+    "False Negatives": 114,
+    "Best Val Accuracy": "0.8639",
+    "Best Val F1": "0.7009",
+    "Training Epochs": 12
+  },
+  "DenseNet121": {
+    "Architecture Year": "2017",
+    "Parameters": "7.5M",
+    "Test Accuracy": "0.8683",
+    "Test Precision": "0.6331",
+    "Test Recall": "1.0000",
+    "Test Specificity": "0.8295",
+    "Test F1 Score": "0.7753",
+    "Test ROC AUC": "0.9877",
+    "True Positives": 1030,
+    "True Negatives": 2905,
+    "False Positives": 597,
+    "False Negatives": 0,
+    "Best Val Accuracy": "0.8802",
+    "Best Val F1": "0.7716",
+    "Training Epochs": 11
+  },
+  "EfficientNet-B0": {
+    "Architecture Year": "2019",
+    "Parameters": "5.3M",
+    "Test Accuracy": "0.8511",
+    "Test Precision": "0.6127",
+    "Test Recall": "0.9369",
+    "Test Specificity": "0.8258",
+    "Test F1 Score": "0.7409",
+    "Test ROC AUC": "0.9696",
+    "True Positives": 965,
+    "True Negatives": 2892,
+    "False Positives": 610,
+    "False Negatives": 65,
+    "Best Val Accuracy": "0.7694",
+    "Best Val F1": "0.5871",
+    "Training Epochs": 11
+  }
+}

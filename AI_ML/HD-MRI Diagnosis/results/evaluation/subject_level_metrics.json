@@ -1,0 +1,327 @@
+{
+  "accuracy": 0.9318181818181818,
+  "precision": 0.8181818181818182,
+  "recall": 0.9,
+  "f1_score": 0.8571428571428571,
+  "confusion_matrix": [
+    [
+      32,
+      2
+    ],
+    [
+      1,
+      9
+    ]
+  ],
+  "num_subjects": 44,
+  "subject_results": [
+    {
+      "subject_id": "OAS1_0018_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00011857524123349472,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0030_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0018515672056217004,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0042_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9950764647965292,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0351_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9994796809640903,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0353_MR2",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00010408880581949223,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0373_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9411373973543783,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0410_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 7.007235353329116e-05,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0411_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9931836125341434,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0418_MR1",
+      "true_label": 1,
+      "predicted_label": 0,
+      "avg_probability": 0.17669784510713726,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0428_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.17856445325640496,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0446_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.006149988422893657,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0051_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 5.63347469722148e-06,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0052_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9994580207519161,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0055_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00043632285288485183,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0062_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0001440853365823158,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0065_MR1",
+      "true_label": 0,
+      "predicted_label": 1,
+      "avg_probability": 0.8672988587420759,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0092_MR2",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.01507968341617315,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0121_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0016761119043079554,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0127_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 1.2890150664326528e-05,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0129_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.014554065662098175,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0133_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00026839307321684526,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0162_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.002487662790191734,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0182_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.007551080416335196,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0189_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0006418961324653777,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0191_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 1.5266222166310345e-05,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0203_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00010139126687229619,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0205_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9994215293995385,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0211_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0004400257549473911,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0213_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0004708842687627571,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0214_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 4.090722577778438e-06,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0229_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.003732023861431839,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0239_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0001075856552066827,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0249_MR2",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 6.153628298929091e-06,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0255_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.0048271587390659515,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0260_MR1",
+      "true_label": 0,
+      "predicted_label": 1,
+      "avg_probability": 0.9281343742481714,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0261_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 5.1845497053538976e-05,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0269_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.8855446454952789,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0291_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.7516191394559393,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0293_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.09472819246019275,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0311_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00027071085163652065,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0313_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 8.150659947806564e-06,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0315_MR1",
+      "true_label": 1,
+      "predicted_label": 1,
+      "avg_probability": 0.9989780858882422,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0344_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 1.4561139147696392e-07,
+      "num_slices": 103
+    },
+    {
+      "subject_id": "OAS1_0345_MR1",
+      "true_label": 0,
+      "predicted_label": 0,
+      "avg_probability": 0.00929216478774595,
+      "num_slices": 103
+    }
+  ]
+}
