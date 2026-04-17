@@ -1,1 +1,0 @@
-This project shows that Using abandoned tech fake news
