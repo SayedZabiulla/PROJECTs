@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
   res.send("Backend is running 🚀");
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // MongoDB connection + server start
 mongoose.connect(process.env.MONGO_URI)
